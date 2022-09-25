@@ -1050,8 +1050,8 @@ header .form {
     position: relative;
     background-image: url(../images/subscribe.jpg);
     background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: white;
 }
 
@@ -1109,7 +1109,7 @@ header .form {
 }
 
 .subscribe p {
-    max-width: 50%;
+    width: 50%;
 }
 
 @media (max-width:991px) {
@@ -1118,7 +1118,7 @@ header .form {
     }
 
     .subscribe p {
-        max-width: 80%;
+        width: 80%;
         text-align: left;
     }
 
