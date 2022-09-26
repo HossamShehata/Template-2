@@ -186,6 +186,9 @@ header .links ul li a {
         font-size: 40px;
     }
 
+    .landing {
+        z-index: 0;
+    }
 
     header .links ul {
         display: none;
@@ -197,6 +200,7 @@ header .links ul li a {
         position: absolute;
         bottom: -237px;
         right: 42px;
+        z-index: 1;
     }
 
     header .links ul li a {
